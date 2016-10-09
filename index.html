@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zombie Village</title>
+        <script src="js/engine/base.js"></script>
+        <script src="js/engine/Sub.js"></script>
+        <script src="js/engine/UIElement.js"></script>
+        <script src="js/engine/Sprite.js"></script>
+        <script src="js/engine/time.js"></script>
+        <script src="js/engine/EntityBase.js"></script>
+        <script src="js/engine/EntityFactory.js"></script>
+        <script src="js/entities/Floors.js"></script>
+        <script src="js/engine/ActorBase.js"></script>
+        <script src="js/engine/ActorFactory.js"></script>
+        <script src="js/actors/Worker.js"></script>
+        <script src="js/UIElements/AddActor.js"></script>
+        <script src="js/Orders.js"></script>
+        <!--<script src="js/Actor.js"></script>-->
+        <style>
+            canvas {
+                position: absolute;
+                top: 0;
+                left: 0;
+                image-rendering: optimizeSpeed;
+                image-rendering:-o-crisp-edges;
+                image-rendering:-webkit-optimize-contrast;
+                -ms-interpolation-mode: nearest-neighbor;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="js/lib/fpsmeter.js"></script>
+        <script>
+            var fpsmeter = new FPSMeter({ decimals: 0, graph: true, theme: 'dark', left: 'auto', right: '5px' });
+        </script>
+        <canvas id="gameCanvas"></canvas>
+        <script src="js/base.js"></script>
+    </body>
+</html>
